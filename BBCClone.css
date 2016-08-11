@@ -1,0 +1,584 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+}
+a{
+	text-decoration: none;
+}
+/*Copy of bbc uk weebsite*/
+/*CSS for navigation toolbar 1*/
+.nav-toolbar-1{
+	width: 100%;
+	height:41px;
+	font-weight: 700;
+	font-size: 12px;
+	font-family: Arial,Helvetica,freesans,sans-serif;
+	border-bottom: 1px solid #cccccc;
+}
+.used-to-center{
+	height:41px;
+	width:1000px;
+	margin:0 auto;
+}
+.blank-space-logo-container{
+	width:100px;
+	height:41px;
+	margin-right: 5px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.logo{																							/*BBC LOGO*/
+	height:41px;
+	width:100px;
+	text-align: right;
+	float:left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+}
+
+.nav-toolbar-1-sign-in-container{ 
+	height: 41px;
+	width:168px;
+	border-right: 1px solid #cccccc;
+	float: left;
+	margin-left: -6px;
+}
+.nav-toolbar-1-sign-in{																			/*Dont't try same classes for different navigation toolbar-1 element! It will not work*/
+	padding-left: 46px;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+}
+.nav-toolbar-1-sign-in-container:hover .nav-toolbar-1-sign-in{
+	border-bottom: 4px solid #1188BB;
+}
+
+
+/*too much of same property lines of css because different colors and width of boxes*/
+
+.nav-toolbar-1-news-container{
+	height: 41px;
+	width:59px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.nav-toolbar-1-news{
+	padding-left: 15px;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+}
+.nav-toolbar-1-news-container:hover .nav-toolbar-1-news{
+	border-bottom: 4px solid #992211;
+}
+
+
+
+.nav-toolbar-1-sport-container{
+	height: 41px;
+	width:60px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.nav-toolbar-1-sport{
+	padding-left: 15px;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+}
+.nav-toolbar-1-sport-container:hover .nav-toolbar-1-sport{
+	border-bottom: 4px solid #FFEE11;
+}
+
+
+
+.nav-toolbar-1-weather-container{
+	height: 41px;
+	width:75px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.nav-toolbar-1-weather{
+	padding-left: 15px;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+}
+.nav-toolbar-1-weather-container:hover .nav-toolbar-1-weather{
+	border-bottom: 4px solid #88CCEE;
+}
+
+
+
+.nav-toolbar-1-shop-container{
+	height: 41px;
+	width:59px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.nav-toolbar-1-shop{
+	padding-left: 15px;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+}
+.nav-toolbar-1-shop-container:hover .nav-toolbar-1-shop{
+	border-bottom: 4px solid #2897E5;
+}
+
+
+
+.nav-toolbar-1-earth-container{
+	height: 41px;
+	width:59px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.nav-toolbar-1-earth{
+	padding-left: 15px;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+}
+.nav-toolbar-1-earth-container:hover .nav-toolbar-1-earth{
+	border-bottom: 4px solid #262626;
+}
+
+
+
+.nav-toolbar-1-travel-container{
+	height: 41px;
+	width:64px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.nav-toolbar-1-travel{
+	padding-left: 15px;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+}
+.nav-toolbar-1-travel-container:hover .nav-toolbar-1-travel{
+	border-bottom: 4px solid #262626;
+}
+
+
+
+.nav-toolbar-1-more-container{
+	height: 41px;
+	width:137px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.nav-toolbar-1-more{
+	padding-left: 15px;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+}
+.nav-toolbar-1-more-container:hover .nav-toolbar-1-more{
+	border-bottom: 4px solid #262626;
+}
+
+.nav-toolbar-1-search-container{
+	height: 41px;
+	width:	220px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.search-bar-{
+	padding-top: 15px;
+	padding-right: 15px;
+}
+
+.element-link-nav-toolbar-1{
+	display: box;
+	height: 41px;
+	width: 100%;
+	color:black;
+}
+/*End of css for navigation toolbar-1*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Css for navigation-toolbar-2 and big news heading*/ 
+.new-big-heading{
+	width: 100%;
+	height: 92px;
+	clear:left;
+	color: white;
+	font-family: Arial,Helvetica,freesans,sans-serif;
+}
+.new-big-heading-news{																					        /*CSS Big news! It's actually an image ;)*/
+	width: 100%;
+	height: 56px;
+	background-color: #bb1919;
+	padding-top: 13px;
+	padding-left: 8px; 
+	padding-bottom: 13px;
+	color: white;
+}
+.used-to-center-big-news{
+	height: 56px;
+	width:993px;
+	margin: 0 auto;
+}
+.nav-toolbar-2{
+	width: 100%;
+	height: 36px;
+	background-color: rgb(169,23,23);
+	font-family: Arial,Helvetica,freesans,sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+}
+.used-to-center-nav-toolbar-2{
+	width:1010px;
+	height:36px;
+	margin: 0 auto;
+}
+
+.nav-toolbar-2-home-container{
+	height: 36px;
+	width:65spx;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-home-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-video-container{
+	height: 36px;
+	width:61px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-video-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-world-container{
+	height: 36px;
+	width:63px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-world-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-asia-container{
+	height: 36px;
+	width:53px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-asia-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-uk-container{
+	height: 36px;
+	width:45px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-uk-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-business-container{
+	height: 36px;
+	width:82px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-business-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-tech-container{
+	height: 36px;
+	width:56px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-tech-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-science-container{
+	height: 36px;
+	width:76px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-science-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-magazine-container{
+	height: 36px;
+	width:87px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-magazine-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-ea-container{
+	height: 36px;
+	width:157px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-ea-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-health-container{
+	height: 36px;
+	width:67px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-health-container:hover{
+	border-bottom: 4px solid white;
+}
+
+.nav-toolbar-2-more-container{
+	height: 36px;
+	width:83px;
+	padding-right: -1px;
+	float: left;
+	padding-top: 11px;
+}
+.nav-toolbar-2-more-container:hover{
+	background-color: black;
+}
+.nav-toolbar-2-more{							/*Common class for all elements of nav toolbar 2*/
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	height: 17px;
+	width: 100%;
+}
+
+.element-link-nav-toolbar-2{					/*Common class for all elements of nav toolbar 2*/
+	display: box;
+	height: 36px;
+	width: 100%;
+	color:white;
+	background-color: black;
+}
+.nav-toolbar-2-element{							/*Common class for all elements of nav toolbar 2*/
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	height: 17px;
+	border-right: 1px solid #C9CBC5;
+	width: 100%;
+}
+/*CSS for big news logo and navigation bar 2 to complete */
+
+
+
+
+
+
+
+
+
+
+
+
+/*Start of CSS for navigation-toolbar-3*/
+
+.nav-toolbar-3{
+	width: 100%;
+	height: 36px;
+	clear:left;
+	color: black;
+	text-decoration:none;
+	font-family: Arial,Helvetica,freesans,sans-serif;
+}
+.used-to-center-nav-bar-3{
+	width:1000px;
+	height: 36px;
+	margin: 0 auto;
+}
+
+.nav-toolbar-3-uk-container{
+	height: 36px;
+	width:49px;
+	float: left;
+	padding-top: 11px;
+	position: relative;
+	right:7px;
+}
+.nav-toolbar-3-uk-container:hover{
+	border-bottom: 4px solid #BB1919;
+}
+
+.nav-toolbar-3-england-container{
+	height: 36px;
+	width:78px;
+	float: left;
+	padding-top: 11px;
+	position: relative;
+	right:7px;
+}
+.nav-toolbar-3-england-container:hover{
+	border-bottom: 4px solid #BB1919;
+}
+
+.nav-toolbar-3-ireland-container{
+	height: 36px;
+	width:95px;
+	float:left;
+	padding-top: 11px;
+	position: relative;
+	right:7px;
+}
+.nav-toolbar-3-ireland-container:hover{
+	border-bottom: 4px solid #BB1919;
+}
+
+.nav-toolbar-3-scotland-container{
+	height: 36px;
+	width:80px;
+	float: left;
+	padding-top: 11px;
+	position: relative;
+	right:7px;
+}
+.nav-toolbar-3-scotland-container:hover{
+	border-bottom: 4px solid #BB1919;
+}
+
+.nav-toolbar-3-wales-container{
+	height: 36px;
+	width:64px;
+	float: left;
+	padding-top: 11px;
+	position: relative;
+	right:7px;
+}
+.nav-toolbar-3-wales-container:hover{
+	border-bottom: 4px solid #BB1919;
+}
+
+.nav-toolbar-3-politics-container{
+	height: 36px;
+	width:72px;
+	float: left;
+	padding-top: 11px;
+	position: relative;
+	right:7px;
+}
+.nav-toolbar-3-politics-container:hover{
+	border-bottom: 4px solid #BB1919;
+}
+
+.element-link-nav-toolbar-3{					/*Common class for all elements of nav toolbar 3*/
+	display: box;
+	height: 36px;
+	width: 100%;
+	color:black;
+	background-color: black;
+}
+.nav-toolbar-3-element{							/*Common class for all elements of nav toolbar 3*/
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	height: 17px;
+	border-right: 1px solid #C9CBC5;
+	width: 100%;
+}
+#politics{
+	border-right: 0px solid white;
+
+}/*End of css for third navigation toolbar*/
+
+
+
+
+
+
+
+
+/*start of ccs for content */
+.content{
+	padding-top: 150px;
+	width:1000px;
+	height:1000px;
+	margin: 0 auto;
+}
+.side-bar{
+	margin-top: 10px;
+	width:220px;
+	height:101px;
+	padding-left: 18px;
+	float: left;
+	border-left: 1px solid #C9CBC5; 
+}
+.first-news-element{
+	width:685px;
+	height:330px;
+	float:left;
+	border-bottom: 1px solid #C9CBC5;
+	font-size:1em;
+}
+.first-news-element-content{
+	width:245px;
+	height:78px;
+	float:left;
+}
+.first-news-element-links{
+	width:245px;
+	height: 150px;
+	position: relative;
+	bottom:150px;
+	float: left;
+	padding-top: 40px;
+	line-height: 20px;
+	color: #C9CBC5;
+}
+.first-news-element-image{
+	float:left;
+	height:230px;
+	padding-left: 10px;
+}
+.first-news-element-container{
+	width:685 px;
+	height: 350px;
+	padding-top: 50px;
+}
+
+.content h1:hover{
+	color:#1167A8;
+} 
+.first-news-element-links:hover{
+	color:#8FCFFF;
+}
+.side-bar img{
+	margin-top: 10px;
+}
+/* End of CSS for content*/
